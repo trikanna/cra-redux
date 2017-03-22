@@ -7,8 +7,6 @@ import Shelf from './shelf';
 class Cart extends Component {
 
   render() {
-    console.log(this.props);
-
     const CartItems = this.props.cart.map((item, idx) => {
       return <li key={idx}>{item}</li>;
     })
